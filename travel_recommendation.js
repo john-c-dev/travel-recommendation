@@ -160,6 +160,18 @@ function handleFormSubmit(event) {
 
 // Initialize
 document.addEventListener('DOMContentLoaded', () => {
+    const searchInput = document.querySelector('input[type="text"]');
+    
+    // Add keyboard event listener for search input if it exists
+    if (searchInput) {
+        searchInput.addEventListener('keypress', (event) => {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                handleSearch();
+            }
+        });
+    }
+
     const searchButton = document.querySelector('.search-button');
     const clearButton = document.querySelector('.clear-button');
     
