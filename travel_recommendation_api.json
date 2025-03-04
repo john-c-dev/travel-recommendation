@@ -22,7 +22,7 @@
       "cities": [
         {
           "name": "Tokyo, Japan",
-          "imageUrl": "./assets/toyko.jpg",
+          "imageUrl": "./assets/tokyo.jpg",
           "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
         },
         {
@@ -53,13 +53,13 @@
     {
       "id": 1,
       "name": "Angkor Wat, Cambodia",
-      "imageUrl": "./assets/angkor-wat.jpg",
+      "imageUrl": "./assets/angkor.jpg",
       "description": "A UNESCO World Heritage site and the largest religious monument in the world."
     },
     {
       "id": 2,
       "name": "Taj Mahal, India",
-      "imageUrl": "./assets/taj-mahal.jpg",
+      "imageUrl": "./assets/taj-mahal.webp",
       "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
     }
   ],

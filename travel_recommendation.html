@@ -4,22 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Travel Reccomendations</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <nav>
+  <nav class="home-nav">
     <img src="./assets/paper-plane.svg" alt="Logo">
     <p>Travel Reccomendations</p>
-    <a href="">Home</a>
-    <a href="">About</a>
-    <a href="">Contact</a>
-    <input type="text" placeholder="Search...">
-    <button>Search</button>
-    <button>Clear</button>
+    <a href="./travel_recommendation.html">Home</a>
+    <a href="./about-us.html">About</a>
+    <a href="./contact-us.html">Contact</a>
+    <div class="search-group">
+      <input type="text" placeholder="Search...">
+      <button class="search-button">Search</button>
+      <button class="clear-button">Clear</button>
+    </div>
   </nav>
+  <section class="social-links">
+    <a href="https://www.facebook.com" target="_blank"><img src="./assets/facebook.png" alt="Facebook"></a>
+    <a href="https://www.twitter.com" target="_blank"><img src="./assets/twitter-x-icon.png" alt="X formerly know as Twitter"></a>
+    <a href="https://www.instagram.com" target="_blank"><img src="./assets/insta.png" alt="Instagram"></a>
+  </section>
   <main>
     <h1>Explore Dream Destinations</h1>
     <p>Whether you're dreaming of pristine beaches, bustling cities, or serene countryside escapes, we've got you covered. Explore expertly curated itineraries, hidden gems, and travel tips to make your next journey unforgettable. Let's embark on an adventure together and create memories that will last a lifetime!</p>
     <button>Book Now</button>
   </main>
+  <script src="./travel_recommendation.js"></script>
 </body>
 </html>

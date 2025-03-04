@@ -4,12 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Travel Reccomendations - Contact Us</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
+  <nav>
+    <img src="./assets/paper-plane.svg" alt="Logo">
+    <p>Travel Reccomendations</p>
+    <a href="./travel_recommendation.html">Home</a>
+    <a href="./about-us.html">About</a>
+    <a href="./contact-us.html">Contact</a>
+  </nav>
+  <section class="social-links">
+    <a href="https://www.facebook.com" target="_blank"><img src="./assets/facebook.png" alt="Facebook"></a>
+    <a href="https://www.twitter.com" target="_blank"><img src="./assets/twitter-x-icon.png" alt="X formerly know as Twitter"></a>
+    <a href="https://www.instagram.com" target="_blank"><img src="./assets/insta.png" alt="Instagram"></a>
+  </section>
   <main>
     <h1>Contact Us</h1>
     <p>If you have any questions, suggestions, or feedback, feel free to reach out to us! We would love to hear from you.</p>
-    <form action="" >
+    <form onsubmit="handleFormSubmit(event)">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required>
       
@@ -22,6 +35,6 @@
       <button type="submit">Send Message</button>
     </form> 
   </main>
-  
+  <script src="./travel_recommendation.js"></script>
 </body>
 </html>

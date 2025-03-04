@@ -4,38 +4,70 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Travel Reccomendations - About Us</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <nav>
     <img src="./assets/paper-plane.svg" alt="Logo">
     <p>Travel Reccomendations</p>
-    <a href="">Home</a>
-    <a href="">About</a>
-    <a href="">Contact</a>
+    <a href="./travel_recommendation.html">Home</a>
+    <a href="./about-us.html">About</a>
+    <a href="./contact-us.html">Contact</a>
   </nav>
-  <main>
-    <h1>About Us</h1>
-    <p>Welcome to Travel Recommendations! We are passionate about helping you discover the world's most beautiful destinations. Our team of travel enthusiasts curates personalized itineraries, shares hidden gems, and provides expert tips to make your travel dreams a reality. Join us on this journey and let's explore together!</p>
+  <main class="about-main">
+    <section class="about-intro">
+      <h1>About Us</h1>
+      <div class="about-content">
+        <img src="./assets/travel-experience.jpg" alt="Travel Experience">
+        <div class="about-text">
+          <h2>Our Mission</h2>
+          <p>Welcome to Travel Recommendations! We are passionate about helping you discover the world's most beautiful destinations. Our team of travel enthusiasts curates personalized itineraries, shares hidden gems, and provides expert tips to make your travel dreams a reality.</p>
+          <h2>Our Promise</h2>
+          <p>Join us on this journey and let's explore together! We're committed to providing authentic experiences and unforgettable adventures for every traveler.</p>
+        </div>
+      </div>
+    </section>
   </main>
-  <section>
+  <section class="team-section">
     <h2>Our Team</h2>
-    <ul>
-      <li>
-        <img src="./assets/team-member1.jpg" alt="Team Member 1">
-        <span>John Doe</span> - Travel Expert
-        <button>CEO</button>
-      </li>
-      <li>
-        <img src="./assets/team-member2.jpg" alt="Team Member 2">
-        <span>Jane Smith</span> - Travel Blogger
-        <button>Team Lead</button>
-      </li>
-      <li>
-        <img src="./assets/team-member3.jpg" alt="Team Member 3">
-        <span>Emily Johnson</span> - Travel Photographer
-        <button>Delivery Head</button>
-      </li>
-    </ul>
+    <div class="team-grid">
+      <div class="team-member">
+        <div class="member-image">
+          <img src="./assets/profile-icons.png" alt="Team Member 1">
+        </div>
+        <div class="member-info">
+          <h3>John Doe</h3>
+          <p class="role">Travel Expert</p>
+          <span class="position">CEO</span>
+        </div>
+      </div>
+      <div class="team-member">
+        <div class="member-image">
+          <img src="./assets/profile-icons.png" alt="Team Member 2">
+        </div>
+        <div class="member-info">
+          <h3>Jane Smith</h3>
+          <p class="role">Travel Blogger</p>
+          <span class="position">Team Lead</span>
+        </div>
+      </div>
+      <div class="team-member">
+        <div class="member-image">
+          <img src="./assets/profile-icons.png" alt="Team Member 3">
+        </div>
+        <div class="member-info">
+          <h3>Emily Johnson</h3>
+          <p class="role">Travel Photographer</p>
+          <span class="position">Delivery Head</span>
+        </div>
+      </div>
+    </div>
   </section>
+  <section class="social-links">
+    <a href="https://www.facebook.com" target="_blank"><img src="./assets/facebook.png" alt="Facebook"></a>
+    <a href="https://www.twitter.com" target="_blank"><img src="./assets/twitter-x-icon.png" alt="X formerly know as Twitter"> </a>
+    <a href="https://www.instagram.com" target="_blank"><img src="./assets/insta.png" alt="Instagram"></a>
+  </section>
+  <script src="./travel_recommendations.js"></script>
 </body>
 </html>
